@@ -34,3 +34,35 @@ Type the following command and hit Enter:
 ```bash
 python test_assessment.py
 ```
+
+## 📊 Understanding the Output
+
+If you see `FAILED` or `Error`:  
+
+Python will tell you exactly which test failed.
+
+- Example: FAIL: test_01_cube_number
+
+- Action: Go back to assessment.py, check your cube_number function, fix the logic, and run the test command again.
+
+If you see `OK`:  
+
+Congratulations! All your functions are correct.
+
+## 📝 The Tasks
+
+You need to complete the following functions:
+
+- cube_number: Return a number raised to the power of 3.
+
+- check_even_or_odd: Use modulo to determine parity.
+
+- combine_names: Format strings into "Last, First".
+
+- get_last_item: Retrieve the last item of a list using negative indexing.
+
+- sum_all_numbers: Calculate the total of a list of numbers.
+
+- get_country_code: Retrieve values from a dictionary using a key.
+
+Good luck! 🐍
