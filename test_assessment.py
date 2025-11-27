@@ -4,8 +4,8 @@ from assessment import (
     cube_number, 
     check_even_or_odd, 
     combine_names, 
-    get_last_item, 
-    sum_all_numbers, 
+    get_last_item,
+    sum_all_numbers,
     get_country_code
 )
 

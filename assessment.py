@@ -5,7 +5,8 @@ def cube_number(number):
     2. Return that number raised to the power of 3.
     """
     # TODO: Write your code here
-    pass
+    return number ** 3
+cube_number(2)
 
 def check_even_or_odd(number):
     """
@@ -14,7 +15,12 @@ def check_even_or_odd(number):
     3. If odd, return "Odd".
     """
     # TODO: Write your code here
-    pass
+    if number%2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    
+check_even_or_odd(10)
 
 def combine_names(first_name, last_name):
     """
@@ -23,7 +29,9 @@ def combine_names(first_name, last_name):
     Example: combine_names("James", "Bond") -> "Bond, James"
     """
     # TODO: Write your code here
-    pass
+    return f"{last_name}, {first_name}"
+
+print(combine_names("Hazel", "Sibhuku"))
 
 def get_last_item(my_list):
     """
@@ -31,7 +39,10 @@ def get_last_item(my_list):
     2. Return the last item in that list (use negative indexing).
     """
     # TODO: Write your code here
-    pass
+    return my_list[-1]
+
+my_list = [10, 20, 30]
+get_last_item(my_list)
 
 def sum_all_numbers(numbers):
     """
@@ -40,7 +51,14 @@ def sum_all_numbers(numbers):
     Hint: You can use a 'for' loop or the built-in sum() function.
     """
     # TODO: Write your code here
-    pass
+    count = 0
+    for i in numbers:
+         count += i
+    return count
+
+
+numbers = [1,1,1]
+sum_all_numbers(numbers)
 
 def get_country_code(database, country):
     """
@@ -50,4 +68,7 @@ def get_country_code(database, country):
     Example output: 'South Africa'
     """
     # TODO: Write your code here
-    pass
+    return database[country]
+
+database = {"ZA": "South Africa", "JP": "Japan", "BR": "Brazil"}
+get_country_code(database, "BR")
